@@ -25,4 +25,5 @@ def play_hangman():
                 tries -= 1
                 guessed_letters.append(guess)
             else:
+                
                 print("Good job,", guess, "
