@@ -4,6 +4,7 @@ def get_random_word():
     word_list = ["python", "computer", "hangman", "keyboard", "mouse"]
     return random.choice(word_list)
 
+
 def play_hangman():
     word = get_random_word()
     word_completion = "_" * len(word)
